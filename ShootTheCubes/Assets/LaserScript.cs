@@ -16,7 +16,7 @@ public class LaserScript : MonoBehaviour
     void Start()
     {
         laserline = GetComponent<LineRenderer>();
-        Debug.Log("Hello");
+       
     }
 
     void Fire()
@@ -61,10 +61,10 @@ public class LaserScript : MonoBehaviour
         }
     }
 
-    private IEnumerator LaserFX()
+   private IEnumerator LaserFX()
     {
         laserline.enabled = true;
         yield return laserDuration;
-        laserline.enabled = false;
+        laserline.enabled = false ;
     }
 }

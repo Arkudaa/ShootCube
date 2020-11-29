@@ -109,11 +109,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e06d1e1cea5043c439be75f860af96f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scalemax: 2
-  scalemin: 0.5
-  maxOrbitSpeed: 30
-  growingSpeed: 10
+  scalemax: 4
+  scalemin: 1
+  maxOrbitSpeed: 26.71
+  growingSpeed: 33.5
   health: 1
+  explosion: {fileID: 100010, guid: 031d08f52af1daa4f929b85221519426, type: 3}
 --- !u!54 &-6657155336155632479
 Rigidbody:
   m_ObjectHideFlags: 0

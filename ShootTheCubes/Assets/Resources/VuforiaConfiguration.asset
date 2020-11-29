@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: Ad3HtEz/////AAABmS70rqlvnkt5oAzGvD/U9whTQbm0XEjpTMpYGLtQyzAHKFWcKWUgCRZv9mV2sHnhXRSu7Ab+uDFpXdmtbm6OP0tp6zaaWAf/jl+X/+KBYoIXqfFW7PSWX5bHfKwU61+h86+ORcaq520SET272SVPMT0le3llRXtO6ewL/b0ey9lIvjfpKvzMmY6DqZzpbVItH8NU4xBxoQNW9Qm++XwpovN7udf9noG875IbqiRCsrfivYFcP08cGxZLAQ43QTeVwEIh3vJnUjEF21oY112uLb0jZ4smtU69SYDDufV7Brru2J2nW4Ouj/K4I7yX9MLeVrRcMwmHWyilRnyYNJoPtyQT23ViAnluUrQaGgPeN3Cl
+    vuforiaLicenseKey: AV1+RBT/////AAABmWUA51b7aUCZryK0o9xcPz+Eyb+dSxKcQlt8rMEvJimhKu1JpxOiaFHeUnD2dmn1nCv4jROAcezlqiKck77enmhCCNXIYgdChKwHaC4u8wAtpuN4htX2hfvTPMf0QfC3LyMxtlc0hxLKtGUps5tNcI7D8LYRDyaxYScvdbj5IO1VqcAOXsSEBFPMQ/zd7S5Zly6X1P8IE9JxLj+f4af11yauw22koPxcMPUDm5OLHogg1GFhHjxtNsW+Us+wsQ25yprgxK4Iu2TQ3PVFHRgjUBzej1Ac89QJi4+3/MCAUi+MJ5RhtuwLSw+njFwpDdZQ8aMNx4KbLHPpwNNpFSGBajCD7JX4v13t3HOUJIkRsvhJ
     ufoLicenseKey: QVNVWGMwei8vLy8vQUFBQUtBY3ppTi9BdzBoNnZrRVlFT0FaVlU5T1FmMU84d1dQZjg2Y2JqbVNZQ2lrZVFJNFdKc2FqRU8wWTdJRjNSNW9sQ25STVg3U3BudXV5NTFyZlI4S1BZbTFyZm1BS1Nsb1NJaWcySnhRS1BkMzAxbmdkVkswdC9uUjFnMndWTG5pSDV4K1hTSjBDOU9CcW9JcHRSSnR0dGdpYVgzeTJZZEhTNThCRkRvRHlCR3pRUFN4SEpYSmFrY295UXV5aGwzZm50K2FaNUgvdVNoQmNJa25LaXdHcEpVWDZSVzhPVDU4eGZ3U0dhWk5kSHk1M0R2Yis4RTFkeUxSRks2TCt6N0hFSEY5WEV1RElXR0F2VlRvNXArRG5TcXRMOUJxZDh2aXVEdTVudlhVNzF3N1lBMDlBc040Wi9TcHkxNTRlNm1FM1VyQndvWlBpMVdPaTFhTGVEY3pYMCtlNWczZGdiQU9IQWl1dkJ0Zm1Jd28=
     delayedInitialization: 0
-    cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 1
-    maxSimultaneousObjectTargets: 1
+    cameraDeviceModeSetting: -3
+    maxSimultaneousImageTargets: 10
+    maxSimultaneousObjectTargets: 10
     virtualSceneScaleFactor: 1
-    useDelayedLoadingObjectTargets: 0
+    useDelayedLoadingObjectTargets: 1
     modelTargetRecoWhileExtendedTracked: 1
-    version: 9.4.6
-    eulaAcceptedVersions: '{"Values":["9.4"]}'
+    version: 9.6.3
+    eulaAcceptedVersions: '{"Values":["9.4","9.5","9.6"]}'
   database:
     disableModelExtraction: 0
   videoBackground:
@@ -33,10 +33,12 @@ MonoBehaviour:
     videoBackgroundEnabled: 1
   deviceTracker:
     autoStartTracker: 1
-    arcoreRequirement: 1
-    autoImportArcore: 1
+    arcoreRequirement: 0
+    autoImportArcore: 0
   playmode:
     mSequencePath: 
     playModeType: 0
   webcam:
-    renderTextureLayer: 30
+    renderTextureLayer: 11
+  packageInformation:
+    ARFoundationVersion: 

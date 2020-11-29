@@ -15,6 +15,7 @@ public class CubeBehavior : MonoBehaviour
     private bool isScaled=false;
     public int health;
     private bool isAlive = true;
+    public GameObject explosion;
 
 
 
@@ -79,11 +80,12 @@ public class CubeBehavior : MonoBehaviour
     private IEnumerator DestroyCube()
     {
         isAlive = false;
-        GetComponent<Renderer>().enabled = false;
+        Instantiate(explosion, transform.position, Quaternion.identity);
+        //GetComponent<Renderer>().enabled = false;
         yield return new WaitForSeconds(0.5f);
-        Destroy(gameObject);
+        Destroy(gameObject); 
 
     }
-
+      
 
 }
